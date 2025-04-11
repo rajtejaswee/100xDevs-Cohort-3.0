@@ -1,0 +1,79 @@
+body {
+ background-image: url("https://images.unsplash.com/photo-1743653537429-a94889a6fd47?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#glass-container{
+    width: 800px;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089) ;   
+}
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F4EFFA;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#taskInput {
+    color: white;
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.355);
+}
+ion-icon {
+    --ionicon-stroke-width: 16px;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.355);
+    cursor: pointer;
+}
+
+#taskListdiv{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+    width: 610px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 2px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight:lighter;
+    color: white;
+}
+
