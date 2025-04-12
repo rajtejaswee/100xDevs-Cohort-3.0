@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "task": "Learn Bun",
+    "done": true
+  },
+  {
+    "id": 2,
+    "task": "Complete Web Dev",
+    "done": false
+  }
+]
